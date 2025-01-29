@@ -19,7 +19,6 @@ function adicionarAmigo(){
             amigos.push(nomeAdicionado);
             document.getElementById('amigo').value = '';
             listarAmigos();
-            console.log (amigos);
     }
            
  }
@@ -58,7 +57,6 @@ function sortearAmigo (){
 
         // Obter o nome sorteado: Utilizar o índice aleatório para acessar o nome correspondente no array.
         let amigoSorteado = amigos[indiceAleatorio];
-        console.log (amigoSorteado);
 
         // Mostrar o resultado: Atualizar o conteúdo do elemento de resultado usando document.getElementById() 
         // Utilizar innerHTML para exibir o amigo sorteado.
@@ -73,4 +71,3 @@ function sortearAmigo (){
          }
         }
 
-inclusao de comandos para sortear o amigo secreto
